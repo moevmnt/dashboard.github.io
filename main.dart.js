@@ -22143,11 +22143,12 @@ q=J.bk(j.i(a,"kioskId"))
 p=A.a0v(J.bk(j.i(a,"startDatetime")))
 o=j.i(a,"startVolt")
 n=new A.oo(s,r,q,p,new A.aQ(Date.now(),!1),o,k)
-if(j.i(a,l)!=null){n.f=!0
-s=A.a0v(J.bk(j.i(a,l)))
+if(j.i(a,l)==null){n.f=!0
+return n}s=A.a0v(J.bk(j.i(a,l)))
 n.e=s
 n.r=B.e.j(B.e.cB(A.c7(0,0,s.a-p.a,0,0).a,6e7))+"mins"
-n.y=j.i(a,"endVolt")}return n},
+n.y=j.i(a,"endVolt")
+return n},
 aua(a){var s=J.a6(a)
 J.bk(s.i(a,"chargeCycleId"))
 return new A.fs(A.a0v(J.aFM(J.bk(s.i(a,"recordDatetime")),0,23)),s.i(a,"volt"))},
@@ -74624,7 +74625,7 @@ return A.T($async$oL,r)},
 oI(a,b){return this.aiF(a,b)},
 aiF(a,b){var s=0,r=A.U(t.a),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e
 var $async$oI=A.V(function(c,d){if(c===1){o=d
-s=p}while(true)switch(s){case 0:f=A.arb("https",u.L,"/app/v1"+b,null)
+s=p}while(true)switch(s){case 0:f=A.arb("http",u.L,"/app/v1"+b,null)
 A.x4(f.gBa())
 p=4
 h=t.N
