@@ -22092,32 +22092,32 @@ _.x=0
 _.z=a
 _.Q=!1},
 Zq:function Zq(a){this.a=a},
-aI0(a){var s,r,q,p,o,n,m,l=t.W3,k=new A.f3(new A.aM(Date.now(),!1),A.b([],l)),j=A.b([],l)
-l=J.a6(a)
-J.cq(t.j.a(l.i(a,"batteries")),new A.a5o(j))
+aI0(a){var s,r,q,p,o,n,m,l,k=t.W3,j=new A.f3(new A.aM(Date.now(),!1),A.b([],k)),i=A.b([],k)
+k=J.a6(a)
+J.cq(t.j.a(k.i(a,"batteries")),new A.a5o(i))
 s=new A.fQ(A.b([],t.G9))
-s.Q=!0
-r=A.a9(4,s,!1,t.lJ)
-for(q=j.length,p=0;p<q;++p){o=j[p]
-r[o.r]=o}n=r[0]
-m=r[1]
-r[0]=r[2]
-r[1]=r[3]
-r[2]=n
-r[3]=m
-k.a=J.b9(l.i(a,"kioskId"))
-J.b9(l.i(a,"groupId"))
-J.b9(l.i(a,"kioskType"))
-k.d=l.i(a,"state")
-k.e=l.i(a,"slots")
-k.f=A.Jm(J.b9(l.i(a,"lastUpdated")))
-k.r=l.i(a,"kioskName")
-l.i(a,"address")
-l.i(a,"latitude")
-l.i(a,"longitude")
-B.c.sl(k.ch,0)
-k.ch=r
-return k},
+r=s.Q=!0
+q=A.a9(4,s,!1,t.lJ)
+for(p=i.length,o=0;o<p;++o){n=i[o]
+q[n.r]=n}m=q[0]
+l=q[1]
+q[0]=q[2]
+q[1]=q[3]
+q[2]=m
+q[3]=l
+j.a=J.b9(k.i(a,"kioskId"))
+J.b9(k.i(a,"groupId"))
+J.b9(k.i(a,"kioskType"))
+j.d=J.f(k.i(a,"state"),"OPEN")&&r
+j.e=k.i(a,"slots")
+j.f=A.Jm(J.b9(k.i(a,"lastUpdated")))
+j.r=k.i(a,"kioskName")
+k.i(a,"address")
+k.i(a,"latitude")
+k.i(a,"longitude")
+B.c.sl(j.ch,0)
+j.ch=q
+return j},
 f3:function f3(a,b){var _=this
 _.a=""
 _.d=!1
